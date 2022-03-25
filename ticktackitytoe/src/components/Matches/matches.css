@@ -1,0 +1,15 @@
+.matches-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 80px;
+}
+
+.matches-item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    justify-content: space-around;
+    padding: 10px;
+}

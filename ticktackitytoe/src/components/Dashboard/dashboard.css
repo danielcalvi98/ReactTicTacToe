@@ -1,0 +1,6 @@
+.dashboard-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding: 80px;
+}

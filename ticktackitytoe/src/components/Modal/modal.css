@@ -1,0 +1,27 @@
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgba(0, 0, 0, 0.389);
+    width: 500px
+}
+.modal-body, .modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body {
+    gap: 10px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(1.5rem);
+    background-color: rgba(0, 0, 0, 0.5);
+}

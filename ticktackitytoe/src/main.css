@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+a, p, h1, h2, h3, h4, button, li, label {
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.btn {
+    background-color:#000;
+}
+
+body{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/022f1ebf-9aed-4121-9152-8eb080328bac/d7dz6nj-31d4b370-c778-4640-a9c7-7e1d56a26f52.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDIyZjFlYmYtOWFlZC00MTIxLTkxNTItOGViMDgwMzI4YmFjXC9kN2R6Nm5qLTMxZDRiMzcwLWM3NzgtNDY0MC1hOWM3LTdlMWQ1NmEyNmY1Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.OAW1eCLNkh9E8s9HUiNAMtLrZoJ-CBOEX3_rD2qTVoQ");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+}

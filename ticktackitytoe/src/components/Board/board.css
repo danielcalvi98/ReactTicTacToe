@@ -1,0 +1,31 @@
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 590px;
+    height: 590px;
+    background-color: black;
+    border: 10px solid black;
+}
+
+.cell {
+    width: 190px;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+}
+.cell:hover {
+    background: rgba(255, 255, 255, 0.523);
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+.symbol {
+    max-width:100%;
+    max-height:100%;
+}

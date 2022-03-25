@@ -1,0 +1,17 @@
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.player-symbol {
+    height: 70px;
+    width: 70px;
+    border-radius: 45%;
+}
+
+.player-pawn {
+}
